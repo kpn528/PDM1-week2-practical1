@@ -1,4 +1,5 @@
 let x = 0;
+let y = 0;
 
 function setup() {
     createCanvas(600, 600);
@@ -6,6 +7,7 @@ function setup() {
 
 function draw() {
     background(0);
-    circle(x, height / 2, 40);
-    x = x + 1;
+    circle(x, y, 40);
+    x += 1;
+    y += 1;
 }
